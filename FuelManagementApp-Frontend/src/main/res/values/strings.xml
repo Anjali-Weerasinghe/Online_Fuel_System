@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Fuel App</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>station owner</item>
+    </string-array>
+
+</resources>

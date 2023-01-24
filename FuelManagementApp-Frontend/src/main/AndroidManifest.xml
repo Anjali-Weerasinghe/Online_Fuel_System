@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fuelapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FuelApp">
+        <activity
+            android:name=".JoinQueue"
+            android:exported="false" />
+        <activity
+            android:name=".QueueView"
+            android:exported="false" />
+        <activity
+            android:name=".StationView"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewRegistry"
+            android:exported="false" />
+        <activity
+            android:name=".ViewReviews"
+            android:exported="false" />
+        <activity
+            android:name=".Default"
+            android:exported="false" />
+        <activity
+            android:name=".searchView"
+            android:exported="false" />
+        <activity
+            android:name=".Queue"
+            android:exported="false" />
+        <activity
+            android:name=".Station"
+            android:exported="false" />
+        <activity
+            android:name=".vehicleRow"
+            android:exported="false" />
+        <activity
+            android:name=".VehicleRegistry"
+            android:exported="false" />
+        <activity
+            android:name=".OwnerHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".ownerRegister"
+            android:exported="false" />
+        <activity
+            android:name=".ownerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".UserRoll"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomePage"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

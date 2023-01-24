@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".LoginPage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="283dp"
+        android:src="@drawable/login" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Sign In"
+        android:textColor="#2F6C88"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/forget"
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/forget"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/signin1"
+        android:layout_width="366dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button"
+        android:text="Sign In"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

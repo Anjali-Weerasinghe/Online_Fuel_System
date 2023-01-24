@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReviewRegistry">
+
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Review"
+        android:textColor="#2F6C88"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <EditText
+        android:id="@+id/idd"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/forget"
+        android:hint="Reveiw ID"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/forget"
+        android:hint="Fuel Center ID"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+
+
+    <EditText
+        android:id="@+id/txt3"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/forget"
+        android:hint="Fuel Center Name"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2" />
+
+    <EditText
+        android:id="@+id/txt4"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:background="@drawable/forget"
+        android:hint="Comment"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt3"
+        app:layout_constraintVertical_bias="0.069" />
+
+    <Button
+        android:id="@+id/btnreview"
+        android:layout_width="366dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button"
+        android:text="Submit"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

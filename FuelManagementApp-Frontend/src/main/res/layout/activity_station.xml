@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Station">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Station Registration"
+        android:textColor="#2F6C88"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044" />
+
+    <EditText
+        android:id="@+id/fuelID"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/forget"
+        android:hint="ID"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/fusername"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/forget"
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/fID"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/forget"
+        android:hint="Fuel Center ID"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="136dp"
+        android:background="@drawable/forget"
+        android:hint="Fuel center name"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fuelID" />
+
+    <EditText
+        android:id="@+id/pava"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:background="@drawable/forget"
+        android:hint="Petrol Availability"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <EditText
+        android:id="@+id/davail"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:background="@drawable/forget"
+        android:hint="Diesel Availability"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <EditText
+        android:id="@+id/timef"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:background="@drawable/forget"
+        android:hint="Finish Time"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname"
+        app:layout_constraintVertical_bias="0.428" />
+
+    <EditText
+        android:id="@+id/timea"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:background="@drawable/forget"
+        android:hint="Arrival Time"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:inputType="time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fname"
+        app:layout_constraintVertical_bias="0.633" />
+
+    <Button
+        android:id="@+id/fuelAdd"
+        android:layout_width="167dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/button"
+        android:text="Update"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Del"
+        android:layout_width="166dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#FF6E40"
+        android:text="delete"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

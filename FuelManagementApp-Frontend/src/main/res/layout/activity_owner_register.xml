@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="359dp"
+        android:layout_height="218dp"
+        android:src="@drawable/welcome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="Sign up as Owner"
+        android:textColor="#2F6C88"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username4"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/forget"
+        android:hint="Username"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/password4"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/forget"
+        android:hint="Password"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/repassword4"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/forget"
+        android:hint="Confirm Password"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup4"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button"
+        android:text="register"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signin4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#00000000"
+        android:text="already have an account"
+        android:textColor="#3D4570"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
